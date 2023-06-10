@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+
+	<link rel="stylesheet" href="styles/contact.css" type="text/css">
+</head>
+<body>
+	<div id="top_line"></div>
+	<div id="wrapper">
+    <!-- Start wrapper -->
+        <div id="header">
+        <!-- Start header -->
+            <div id="header_left">
+            <!-- Start header_left -->
+               <img src="images/logo_telkom.png">
+            <!-- End header_left -->    
+            </div>
+            <div id="header_right">
+            <!-- Start header_right -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            <!-- End header_right -->
+            </div>
+        </div>
+        <!-- End header -->
+	
+
+		<div id="judul">
+		<!-- Start judul -->
+			<h1>Contact</h1>
+		</div>
+		<!-- End judul -->
+		
+		<div id="maps">
+		<!-- Start maps -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.778881776897!2d106.83592291396651!3d-6.160361895539889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5c12ea7aa35%3A0xd2c0661bfe94a2ab!2sPlasa%20Telkom%20Gunung%20Sahari!5e0!3m2!1sid!2sid!4v1658336959064!5m2!1sid!2sid" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>	
+		<!-- End maps -->
+		
+		<div id="form">
+		<!-- Start form -->
+			<form id="form_сontact" method="POST" action="">
+				<table cellspacing="20">
+					<tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>
+                          <input type="text" id="name" name="name" placeholder="Name" value="" required="" autocomplete=""> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>
+                          <input type="email" id="email" name="email" placeholder="Email" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td>:</td>
+                        <td>
+                          <input type="text" id="subject" name="subject" placeholder="Subject" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Message</td>
+                        <td valign="top">:</td>
+                        <td>
+                          <textarea id="message" name="message" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <input type="submit" id="send" name="send" value="send" >
+                        </td>
+                      </tr>
+				</table>
+			</form>
+		</div>
+		<!-- End form -->
+
+		<div class="footer">
+		<!-- Start footer -->
+			<p>&copy; M. Agung Wibowo 2022</p>
+		</div>
+		<!-- End footer -->
+	</div>	
+	<!-- End wrapper -->
+</body>
+</html>
